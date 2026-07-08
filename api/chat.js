@@ -23,7 +23,7 @@ module.exports = async (req, res) => {
     }
 
     const payload = {
-      model: 'claude-sonnet-4-20250514',
+      model: 'claude-sonnet-5',
       max_tokens: Math.min(Number(max_tokens) || 1000, 4000),
       messages
     };
